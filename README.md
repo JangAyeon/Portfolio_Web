@@ -20,3 +20,7 @@
 `4th Commit `
 
 - About me 구성
+
+`5th Commit `
+
+- Skills 구성
