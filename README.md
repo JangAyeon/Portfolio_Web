@@ -28,3 +28,7 @@
 `6th Commit `
 
 - My works 구성
+
+`7th Commit `
+
+- testimonials 구성
