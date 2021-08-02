@@ -32,3 +32,7 @@
 `7th Commit `
 
 - testimonials 구성
+
+`8th Commit `
+
+- contact me 구성
