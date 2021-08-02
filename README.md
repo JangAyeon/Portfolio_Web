@@ -13,6 +13,10 @@
 
 - navbar 구조 잡기
 
-`3nd Commit `
+`3rd Commit `
 
 - Home 구성
+
+`4th Commit `
+
+- About me 구성
