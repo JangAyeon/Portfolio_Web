@@ -27,15 +27,21 @@
                 <i class="fab fa-apple"></i>
                 <a href="#">이달의 소녀</a>
             </div>
-            <ul class="navbar__menu">
-                <li class="navbar__menu__item active">Home</li>
-                <li class="navbar__menu__item">About</li>
-                <li class="navbar__menu__item">Skills</li>
-                <li class="navbar__menu__item">My wortk</li>
-                <li class="navbar__menu__item">Testimonials</li>
-                <li class="navbar__menu__item">Contact</li>
-            </ul>
-            
+            <div class="navbar__menu">
+                <ul class="navbar__menu">
+                    <li class="navbar__menu__item active">Home</li>
+                    <li class="navbar__menu__item">About</li>
+                    <li class="navbar__menu__item">Skills</li>
+                    <li class="navbar__menu__item">My wortk</li>
+                    <li class="navbar__menu__item">Testimonials</li>
+                    <li class="navbar__menu__item">Contact</li>
+                </ul>
+            </div>
+
+            <!--Toggle button-->
+            <div class="navbar__toggle-btn">
+                <i class="fas fa-bars"></i>
+            </div>
 
         </nav>
 
@@ -46,7 +52,7 @@
             class="home__avatar"
             />
             <h1 class="home__tittle">
-               ㅇ ㄷ ㅇ ㅅ ㄴ <br/>LOONA the world
+                ㅇ ㄷ ㅇ ㅅ ㄴ <br/>LOONA the world
             </h1>
             <h2 class="home_description">
                 Block Berry Creative
@@ -63,42 +69,37 @@
                 공개하는 독특한 데뷔 프로젝트로 주목을 받았으며 최종적으로 
                 희진, 현진, 하슬, 여진, 비비, 김립, 진솔, 최리, 이브, 츄, 고원, 올리비아 혜가 선발되어 데뷔함
             </p>
-
             <div class="about__majors">
-
                 <div class="major">
                     <div class="major__icon">
                         <i class="fas fa-heart"></i>
                     </div>
                     <h2 class="major__title">Front-end</h2>
                     <div class="major__description">
-                        HTML,CSS,JavaScript,TypeScript,
-                        <br/>React,Vue,Web APIs
+                        HTML, CSS, JavaScript, TypeScript,
+                        <br />React, Vue, Web APIs
                     </div>
                 </div>
-
                 <div class="major">
                     <div class="major__icon">
                         <i class="fas fa-moon"></i>
                     </div>
-                    <h2 class="major__title">Front-end</h2>
-                    <div class="major__description">
-                        HTML,CSS,JavaScript,TypeScript,
-                        <br/>React,Vue,Web APIs
-                    </div>
+                    <h2 class="major__title">Mobile</h2>
+                    <p class="major__description">
+                        Android, iOS, React Native, Flutter,
+                        <br />Java, Swift, Kotlin
+                    </p>
                 </div>
-
                 <div class="major">
                     <div class="major__icon">
                         <i class="fas fa-star"></i>
                     </div>
-                    <h2 class="major__title">Front-end</h2>
-                    <div class="major__description">
-                        HTML,CSS,JavaScript,TypeScript,
-                        <br/>React,Vue,Web APIs
-                    </div>
+                    <h2 class="major__title">Back-end</h2>
+                    <p class="major__description">
+                        Java, JavaScript, Go, NodeJS,
+                        <br />Rest APIs, GraphGL
+                    </p>
                 </div>
-
             </div>
             <div class="about__jobs">
                 <div class="job">
@@ -124,6 +125,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </section>
 
 
@@ -224,205 +226,209 @@
 
         <!--Work-->
         <section id="work" class="section">
-            <h1>Members</h1>
-            <h3>LOONA's UNIT</h3>
-            <div class="work_categories">
-                <button class="category__btn active">ALL
-                    <span class="category__count">12</span>
-                </button>
-                <button class="category__btn">1/3
-                    <span class="category__count">5</span>
-                </button>
-                <button class="category__btn">odd eye circle
-                    <span class="category__count">3</span>
-                </button>
-                <button class="category__btn">yyxy
-                    <span class="category__count">4</span>
-                </button>
-            </div>
-            <div class="work__projects">
-                <a 
-                    href="https://github.com/JangAyeon/Portfolio_Web" 
-                    class="project" 
-                    target="blank"
-                >
-                <img class="project__img" src="imgs/projects/13/1.jpeg" alt="1st">
-                <div class="project__description">
-                    <h3>희진</h3>
-                    <span>2000. 10. 19</span>
+            <div class="section__container">
+                <h1>Members</h1>
+                <h3>LOONA's UNIT</h3>
+                <div class="work_categories">
+                    <button class="category__btn active">ALL
+                        <span class="category__count">12</span>
+                    </button>
+                    <button class="category__btn">1/3
+                        <span class="category__count">5</span>
+                    </button>
+                    <button class="category__btn">odd eye circle
+                        <span class="category__count">3</span>
+                    </button>
+                    <button class="category__btn">yyxy
+                        <span class="category__count">4</span>
+                    </button>
                 </div>
-                </a>
-
-                <a 
+                <div class="work__projects">
+                    <a 
                         href="https://github.com/JangAyeon/Portfolio_Web" 
                         class="project" 
                         target="blank"
                     >
-                    <img class="project__img" src="imgs/projects/13/2.jpeg" alt="2nd">
+                    <img class="project__img" src="imgs/projects/13/1.jpeg" alt="1st">
                     <div class="project__description">
-                        <h3>현진</h3>
-                        <span>2000. 11. 15.</span>
+                        <h3>희진</h3>
+                        <span>2000. 10. 19</span>
+                    </div>
+                    </a>
+
+                    <a 
+                            href="https://github.com/JangAyeon/Portfolio_Web" 
+                            class="project" 
+                            target="blank"
+                        >
+                        <img class="project__img" src="imgs/projects/13/2.jpeg" alt="2nd">
+                        <div class="project__description">
+                            <h3>현진</h3>
+                            <span>2000. 11. 15.</span>
+                        </div>
+                    </a>
+
+                    <a 
+                        href="https://github.com/JangAyeon/Portfolio_Web" 
+                        class="project" 
+                        target="blank"
+                    >
+                    <img class="project__img" src="imgs/projects/13/3.jpeg" alt="3st">
+                    <div class="project__description">
+                        <h3>하슬</h3>
+                        <span>1997. 08. 18</span>
+                    </div>
+                    </a>
+
+
+                    <a 
+                        href="https://github.com/JangAyeon/Portfolio_Web" 
+                        class="project" 
+                        target="blank"
+                    >
+                    <img class="project__img" src="imgs/projects/13/4.jpeg" alt="4st">
+                    <div class="project__description">
+                        <h3>여진</h3>
+                        <span>2002. 11. 11</span>
+                    </div>
+                    </a>
+
+                    <a 
+                        href="https://github.com/JangAyeon/Portfolio_Web" 
+                        class="project" 
+                        target="blank"
+                    >
+                    <img class="project__img" src="imgs/projects/13/5.jpeg" alt="5st">
+                    <div class="project__description">
+                        <h3>비비</h3>
+                        <span>1996. 12. 09</span>
                     </div>
                 </a>
 
-                <a 
-                    href="https://github.com/JangAyeon/Portfolio_Web" 
-                    class="project" 
-                    target="blank"
-                >
-                <img class="project__img" src="imgs/projects/13/3.jpeg" alt="3st">
-                <div class="project__description">
-                    <h3>하슬</h3>
-                    <span>1997. 08. 18</span>
-                </div>
+
+                    <a 
+                        href="https://github.com/JangAyeon/Portfolio_Web" 
+                        class="project" 
+                        target="blank"
+                    >
+                    <img class="project__img" src="imgs/projects/oec/1.jpeg" alt="6st">
+                    <div class="project__description">
+                        <h3>김립</h3>
+                        <span>1999. 02. 10</span>
+                    </div>
                 </a>
 
 
-                <a 
-                    href="https://github.com/JangAyeon/Portfolio_Web" 
-                    class="project" 
-                    target="blank"
-                >
-                <img class="project__img" src="imgs/projects/13/4.jpeg" alt="4st">
-                <div class="project__description">
-                    <h3>여진</h3>
-                    <span>2002. 11. 11</span>
+                    <a 
+                        href="https://github.com/JangAyeon/Portfolio_Web" 
+                        class="project" 
+                        target="blank"
+                    >
+                    <img class="project__img" src="imgs/projects/oec/2.jpeg" alt="7st">
+                    <div class="project__description">
+                        <h3>진솔</h3>
+                        <span>2000. 10. 19</span>
+                    </div>
+                    </a>
+
+                    <a 
+                        href="https://github.com/JangAyeon/Portfolio_Web" 
+                        class="project" 
+                        target="blank"
+                    >
+                    <img class="project__img" src="imgs/projects/oec/3.jpeg" alt="8st">
+                    <div class="project__description">
+                        <h3>최리</h3>
+                        <span>2001. 06. 04</span>
+                    </div>
+                    </a>
+
+                    <a 
+                        href="https://github.com/JangAyeon/Portfolio_Web" 
+                        class="project" 
+                        target="blank"
+                    >
+                    <img class="project__img" src="imgs/projects/yyxy/1.jpeg" alt="9st">
+                    <div class="project__description">
+                        <h3>이브</h3>
+                        <span>1997. 05. 24</span>
+                    </div>
+                    </a>
+                    
+                    <a 
+                        href="https://github.com/JangAyeon/Portfolio_Web" 
+                        class="project" 
+                        target="blank"
+                    >
+                    <img class="project__img" src="imgs/projects/yyxy/2.jpeg" alt="10st">
+                    <div class="project__description">
+                        <h3>츄</h3>
+                        <span>1999. 10. 20</span>
+                    </div>
+                    </a>
+
+                    <a 
+                        href="https://github.com/JangAyeon/Portfolio_Web" 
+                        class="project" 
+                        target="blank"
+                    >
+                    <img class="project__img" src="imgs/projects/yyxy/3.jpeg" alt="11st">
+                    <div class="project__description">
+                        <h3>고원</h3>
+                        <span>2000. 11. 19</span>
+                    </div>
+                    </a>
+
+                    <a 
+                        href="https://github.com/JangAyeon/Portfolio_Web" 
+                        class="project" 
+                        target="blank"
+                    >
+                    <img class="project__img" src="imgs/projects/yyxy/4.jpeg" alt="12st">
+                    <div class="project__description">
+                        <h3>올리비아 혜</h3>
+                        <span>2001. 11. 13</span>
+                    </div>
+                    </a>
+
+
                 </div>
-                </a>
-
-                <a 
-                    href="https://github.com/JangAyeon/Portfolio_Web" 
-                    class="project" 
-                    target="blank"
-                >
-                <img class="project__img" src="imgs/projects/13/5.jpeg" alt="5st">
-                <div class="project__description">
-                    <h3>비비</h3>
-                    <span>1996. 12. 09</span>
-                </div>
-            </a>
-
-
-                <a 
-                    href="https://github.com/JangAyeon/Portfolio_Web" 
-                    class="project" 
-                    target="blank"
-                >
-                <img class="project__img" src="imgs/projects/oec/1.jpeg" alt="6st">
-                <div class="project__description">
-                    <h3>김립</h3>
-                    <span>1999. 02. 10</span>
-                </div>
-            </a>
-
-
-                <a 
-                    href="https://github.com/JangAyeon/Portfolio_Web" 
-                    class="project" 
-                    target="blank"
-                >
-                <img class="project__img" src="imgs/projects/oec/2.jpeg" alt="7st">
-                <div class="project__description">
-                    <h3>진솔</h3>
-                    <span>2000. 10. 19</span>
-                </div>
-                </a>
-
-                <a 
-                    href="https://github.com/JangAyeon/Portfolio_Web" 
-                    class="project" 
-                    target="blank"
-                >
-                <img class="project__img" src="imgs/projects/oec/3.jpeg" alt="8st">
-                <div class="project__description">
-                    <h3>최리</h3>
-                    <span>2001. 06. 04</span>
-                </div>
-                </a>
-
-                <a 
-                    href="https://github.com/JangAyeon/Portfolio_Web" 
-                    class="project" 
-                    target="blank"
-                >
-                <img class="project__img" src="imgs/projects/yyxy/1.jpeg" alt="9st">
-                <div class="project__description">
-                    <h3>이브</h3>
-                    <span>1997. 05. 24</span>
-                </div>
-                </a>
-                
-                <a 
-                    href="https://github.com/JangAyeon/Portfolio_Web" 
-                    class="project" 
-                    target="blank"
-                >
-                <img class="project__img" src="imgs/projects/yyxy/2.jpeg" alt="10st">
-                <div class="project__description">
-                    <h3>츄</h3>
-                    <span>1999. 10. 20</span>
-                </div>
-                </a>
-
-                <a 
-                    href="https://github.com/JangAyeon/Portfolio_Web" 
-                    class="project" 
-                    target="blank"
-                >
-                <img class="project__img" src="imgs/projects/yyxy/3.jpeg" alt="11st">
-                <div class="project__description">
-                    <h3>고원</h3>
-                    <span>2000. 11. 19</span>
-                </div>
-                </a>
-
-                <a 
-                    href="https://github.com/JangAyeon/Portfolio_Web" 
-                    class="project" 
-                    target="blank"
-                >
-                <img class="project__img" src="imgs/projects/yyxy/4.jpeg" alt="12st">
-                <div class="project__description">
-                    <h3>올리비아 혜</h3>
-                    <span>2001. 11. 13</span>
-                </div>
-                </a>
-
-
             </div>
-
         </section>
 
         <!--Testimonials-->
         <section id="testimonials" class="section">
-            <h1>Testimonials</h1>
-            <h3>See what they say about me</h3>
-            <div class="testimonials">
-                <div class="testimonial">
-                    <img 
-                    src="imgs/me.jpeg" 
-                    alt="pp1" 
-                    class="testimonial__avater"
-                    />
+            <div class="section__container">
+                <h1>Testimonials</h1>
+                <h3>See what they say about me</h3>
+                <div class="testimonials">
+                    <div class="testimonial">
+                        <img 
+                        src="imgs/me.jpeg" 
+                        alt="pp1" 
+                        class="testimonial__avater"
+                        />
 
-                    <div class="testimonial__speech-bubble">
-                        <p>멤버 전원이 서브 포지션 이상의올릴 수 있는 다양하고 신선한 곡을 제공한다.</p>
-                        <p class="name"><a href="">임몽실</a>/기획진</p>
-                    </div>
+                        <div class="testimonial__speech-bubble">
+                            <p>멤버 전원이 서브 포지션 이상의올릴 수 있는 다양하고 신선한 곡을 제공한다.</p>
+                            <p class="name"><a href="">임몽실</a>/기획진</p>
+                        </div>
 
-                </div>
-                <div class="testimonial">
-                    <div class="testimonial__speech-bubble">
-                        <p>멤버 전원이 서브 포지션 이상의올릴 수 있는 다양하고 신선한 곡을 제공한다.</p>
-                        <p class="name"><a href="">움냠</a>/천재</p>
                     </div>
-                    <img 
-                    src="imgs/me.jpeg" 
-                    alt="pp2" 
-                    class="testimonial__avater"
-                    />
+                    <div class="testimonial">
+                        <div class="testimonial__speech-bubble">
+                            <p>멤버 전원이 서브 포지션 이상의올릴 수 있는 다양하고 신선한 곡을 제공한다.</p>
+                            <p class="name"><a href="">움냠</a>/천재</p>
+                        </div>
+                        <img 
+                        src="imgs/me.jpeg" 
+                        alt="pp2" 
+                        class="testimonial__avater"
+                        />
+                    </div>
                 </div>
-            </div>
+        </div>
+
         </section>
 
         <!--Contact-->
