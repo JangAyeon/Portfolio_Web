@@ -47,6 +47,23 @@ document.addEventListener("scroll",()=>{
 })
 
 
+//show "arrow up" button when scrolling down
+const arrowUP=document.querySelector(".arrow-up");
+document.addEventListener("scroll",()=>{
+    if(window.scrollY > homeHeight/2){
+        arrowUP.classList.add("visible");
+    }
+    else{
+        arrowUP.classList.remove("visible");
+    }
+})
+
+
+//handle click on the "arrow up" button
+arrowUP.addEventListener("click",()=>{
+    scrollIntoView("#home");
+
+});
 
 function scrollIntoView(selector){
     const scrollTo=document.querySelector(selector);
