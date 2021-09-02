@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive WEB</title>
+        <meta name="description" content="Portifolio for Front-End"/>
+        <meta name="author" content="ayeon"/>
+        <link rel="icon" type="image/png" href="imgs/favicon.png"/>
+       <script 
+            src="https://kit.fontawesome.com/2304817d58.js" 
+            crossorigin="anonymous"
+            ></script>
+
+            <script>
+                (function(d) {
+                  var config = {
+                    kitId: 'cid6kzk',
+                    scriptTimeout: 3000,
+                    async: true
+                  },
+                  h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+                })(document);
+              </script>
+
+
+
+        <link rel="stylesheet" href="style.css"/>
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+
+        <!--Navbar-->
+        <nav id="navbar">
+            <div class="navbar__logo">
+                
+                <a href="#">이달의 소녀</a>
+            </div>
+
+            <ul class="navbar__menu">
+                <li class="navbar__menu__item active" data-link="#home">Home</li>
+                <li class="navbar__menu__item" data-link="#about">About</li>
+                <li class="navbar__menu__item" data-link="#work">Members</li>
+                <li class="navbar__menu__item" data-link="#photos">Photos</li>
+                <li class="navbar__menu__item" data-link="#skills">Albums</li>
+                <li class="navbar__menu__item" data-link="#testimonials">Talks</li>
+                <li class="navbar__menu__item" data-link="#contact">Contact</li>
+            </ul>
+
+
+            <!--Toggle button-->
+            <div class="navbar__toggle-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+
+        </nav>
+
+        <!--Home-->
+        <section id="home" >
+            <div class="home__container">
+                <img src="imgs/대문로고.gif" 
+                alt="ayeon's profile photo"
+                class="home__avatar"
+                />
+                <h1 class="home__tittle">
+                    ㅇ ㄷ ㅇ ㅅ ㄴ <br/>LOONA the world
+                </h1>
+                <h2 class="home_description">
+                    Block Berry Creative
+                </h2>
+                <button class="home__contact">
+                    Contact Me
+                </button>
+            </div>
+        </section>
+
+        <!--About-->
+        <section id="about" class="section section__container">
+            <h1>LOONAverse</h1>
+            <p>폴라리스엔터의 자회사 블록베리크리에이티브 소속 12인조 걸그룹입니다. 
+                '이달의 소녀 연구단'이라는 50명에 이르는 연습생 무리에서 추려진 12명의 멤버들과 함께 매달 한 달에 한 명의 멤버를 공개하는 독특한 데뷔 프로젝트로 주목을 받았으며 
+                최종적으로 희진, 현진, 하슬, 여진, 비비, 김립, 진솔, 최리, 이브, 츄, 고원, 올리비아 혜가 순서대로 선발되어 데뷔했다.
+                열두명의 소녀들이 한명씩 솔로곡과 앨범을 낸 뒤, 유닛활동을 하는 엔터사상 최대의 프로모션을 진행했습니다. 
+                
+              
+            </p>
+            <div class="about__majors">
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h2 class="major__title">ORBIT</h2>
+                    <div class="major__description">
+                        공전, 자아, 연결
+                    
+                    </div>
+                </div>
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <h2 class="major__title">Rendezvous</h2>
+                    <p class="major__description">
+                        만남, 운명, 교점
+                    </p>
+                </div>
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h2 class="major__title">ODD</h2>
+                    <p class="major__description">
+                        연결고리, 별종, 신비
+                    
+                    </p>
+                </div>
+            </div>
+            <div class="about__jobs">
+                <div class="job">
+                    <img 
+                        src="imgs/loona.png" 
+                        alt="samsung" 
+                        class="job__logo"
+                    />
+                    <div class="job__description">
+                        <p class="job__name">LOONA</p>
+                        <p class="job__period">2018년 8월 19일 ~</p>
+                    </div>
+                </div>
+                <div class="job">
+                    <img 
+                        src="imgs/logo_4.png" 
+                        alt="samsung" 
+                        class="job__logo"
+                    />
+                    <div class="job__description">
+                        <p class="job__name">ORBIT</p>
+                        <p class="job__period">2018년 7월 13일 ~</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!--Members-->
+        <section id="work" class="section">
+            <div class="section__container">
+                <h1>Members</h1>
+                <h3>이달의 소녀 유닛</h3>
+                <div class="work__categories">
+                    <button class="category__btn selected" data-filter="*">ALL
+                        <span class="category__count">12</span>
+                    </button>
+                    <button class="category__btn" data-filter="1/3">1/3
+                        <span class="category__count">5</span>
+                    </button>
+                    <button class="category__btn" data-filter="oddeyecircle">odd eye circle
+                        <span class="category__count">3</span>
+                    </button>
+                    <button class="category__btn" data-filter="yyxy">yyxy
+                        <span class="category__count">4</span>
+                    </button>
+                </div>
+                <div class="work__projects">
+                    <a 
+                        href="https://namu.wiki/w/%ED%9D%AC%EC%A7%84?from=%ED%9D%AC%EC%A7%84%28%EC%9D%B4%EB%8B%AC%EC%9D%98%20%EC%86%8C%EB%85%80%29" 
+                        class="project" 
+                        target="blank"
+                        data-type="1/3"
+                    >
+                    <img class="project__img" 
+                        src="imgs/projects/13/1.jpeg" 
+                        alt="1st"
+                    />
+                    <div class="project__description">
+                        <h3>희진</h3>
+                        <span>2000. 10. 19</span>
+                    </div>
+                    </a>
+
+                    <a 
+                            href="https://namu.wiki/w/%ED%98%84%EC%A7%84(%EC%9D%B4%EB%8B%AC%EC%9D%98%20%EC%86%8C%EB%85%80)" 
+                            class="project" 
+                            target="blank"
+                            data-type="1/3"
+                        >
+                        <img 
+                            class="project__img" 
+                            src="imgs/projects/13/2.jpeg" 
+                            alt="2nd"
+                        />
+                        <div class="project__description">
+                            <h3>현진</h3>
+                            <span>2000. 11. 15.</span>
+                        </div>
+                    </a>
+
+                    <a 
+                        href="https://namu.wiki/w/%ED%95%98%EC%8A%AC" 
+                        class="project" 
+                        target="blank"
+                        data-type="1/3"
+                    >
+                    <img class="project__img" src="imgs/projects/13/3.jpeg" alt="3st"/>
+                    <div class="project__description">
+                        <h3>하슬</h3>
+                        <span>1997. 08. 18</span>
+                    </div>
+                    </a>
+
+
+                    <a 
+                        href="https://namu.wiki/w/%EC%97%AC%EC%A7%84(%EC%9D%B4%EB%8B%AC%EC%9D%98%20%EC%86%8C%EB%85%80)" 
+                        class="project" 
+                        target="blank"
+                        data-type="1/3"
+                    >
+                    <img class="project__img" src="imgs/projects/13/4.jpeg" alt="4st"/>
+                    <div class="project__description">
+                        <h3>여진</h3>
+                        <span>2002. 11. 11</span>
+                    </div>
+                    </a>
+
+                    <a 
+                        href="https://namu.wiki/w/%EB%B9%84%EB%B9%84(%EC%9D%B4%EB%8B%AC%EC%9D%98%20%EC%86%8C%EB%85%80)" 
+                        class="project" 
+                        target="blank"
+                        data-type="1/3"
+                    >
+                    <img class="project__img" src="imgs/projects/13/5.jpeg" alt="5st"/>
+                    <div class="project__description">
+                        <h3>비비</h3>
+                        <span>1996. 12. 09</span>
+                    </div>
+                </a>
+
+
+                    <a 
+                        href="https://namu.wiki/w/%EA%B9%80%EB%A6%BD(%EC%9D%B4%EB%8B%AC%EC%9D%98%20%EC%86%8C%EB%85%80)" 
+                        class="project" 
+                        target="blank"
+                        data-type="oddeyecircle"
+                    >
+                    <img class="project__img" src="imgs/projects/oec/1.jpeg" alt="6st"/>
+                    <div class="project__description">
+                        <h3>김립</h3>
+                        <span>1999. 02. 10</span>
+                    </div>
+                </a>
+
+
+                    <a 
+                        href="https://namu.wiki/w/%EC%A7%84%EC%86%94(%EC%9D%B4%EB%8B%AC%EC%9D%98%20%EC%86%8C%EB%85%80)" 
+                        class="project" 
+                        target="blank"
+                        data-type="oddeyecircle"
+                    >
+                    <img class="project__img" src="imgs/projects/oec/2.jpeg" alt="7st"/>
+                    <div class="project__description">
+                        <h3>진솔</h3>
+                        <span>2000. 10. 19</span>
+                    </div>
+                    </a>
+
+                    <a 
+                        href="https://namu.wiki/w/%EC%B5%9C%EB%A6%AC(%EC%9D%B4%EB%8B%AC%EC%9D%98%20%EC%86%8C%EB%85%80)" 
+                        class="project" 
+                        target="blank"
+                        data-type="oddeyecircle"
+                    >
+                    <img class="project__img" src="imgs/projects/oec/3.jpeg" alt="8st"/>
+                    <div class="project__description">
+                        <h3>최리</h3>
+                        <span>2001. 06. 04</span>
+                    </div>
+                    </a>
+
+                    <a 
+                        href="https://namu.wiki/w/%EC%9D%B4%EB%B8%8C(%EC%9D%B4%EB%8B%AC%EC%9D%98%20%EC%86%8C%EB%85%80)" 
+                        class="project" 
+                        target="blank"
+                        data-type="yyxy"
+                    >
+                    <img class="project__img" src="imgs/projects/yyxy/1.jpeg" alt="9st"/>
+                    <div class="project__description">
+                        <h3>이브</h3>
+                        <span>1997. 05. 24</span>
+                    </div>
+                    </a>
+                    
+                    <a 
+                        href="https://namu.wiki/w/%EC%B8%84(%EC%9D%B4%EB%8B%AC%EC%9D%98%20%EC%86%8C%EB%85%80)" 
+                        class="project" 
+                        target="blank"
+                        data-type="yyxy"
+                    >
+                    <img class="project__img" src="imgs/projects/yyxy/2.jpeg" alt="10st"/>
+                    <div class="project__description">
+                        <h3>츄</h3>
+                        <span>1999. 10. 20</span>
+                    </div>
+                    </a>
+
+                    <a 
+                        href="https://namu.wiki/w/%EA%B3%A0%EC%9B%90(%EC%9D%B4%EB%8B%AC%EC%9D%98%20%EC%86%8C%EB%85%80)" 
+                        class="project" 
+                        target="blank"
+                        data-type="yyxy"
+                    >
+                    <img class="project__img" src="imgs/projects/yyxy/3.jpeg" alt="11st"/>
+                    <div class="project__description">
+                        <h3>고원</h3>
+                        <span>2000. 11. 19</span>
+                    </div>
+                    </a>
+
+                    <a 
+                        href="https://namu.wiki/w/%EC%98%AC%EB%A6%AC%EB%B9%84%EC%95%84%20%ED%98%9C" 
+                        class="project" 
+                        target="blank"
+                        data-type="yyxy"
+                    >
+                    <img class="project__img" src="imgs/projects/yyxy/4.jpeg" alt="12st"/>
+                    <div class="project__description">
+                        <h3>올리비아 혜</h3>
+                        <span>2001. 11. 13</span>
+                    </div>
+                    </a>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!--Photo slide-->
+        <section id="photos" class="section">
+            <div class="section__container">
+                <h1>Photos</h1>
+                <h3>역대 활동별 프로필 사진</h3>
+                <div class="slideblock">
+                    <input type="radio" name="slide" id="slide01" checked>
+                    <input type="radio" name="slide" id="slide02">
+                    <input type="radio" name="slide" id="slide03">
+                    <input type="radio" name="slide" id="slide04">
+                    <input type="radio" name="slide" id="slide05">
+                    <input type="radio" name="slide" id="slide06">
+                    <input type="radio" name="slide" id="slide07">
+                    <input type="radio" name="slide" id="slide08">
+                    <input type="radio" name="slide" id="slide09">
+                    <input type="radio" name="slide" id="slide10">
+                    <input type="radio" name="slide" id="slide11">
+                    <input type="radio" name="slide" id="slide12">
+                    <input type="radio" name="slide" id="slide13">
+                    <input type="radio" name="slide" id="slide14">
+                    <input type="radio" name="slide" id="slide15">
+                    <input type="radio" name="slide" id="slide16">
+
+                    <div class="slidewrap">
+                        
+                        <ul class="slidelist">
+                            <!-- 슬라이드 영역 -->
+                            <li class="slideitem">
+                                <a>
+                                    <img src="imgs/slide/1.jpeg">
+                                </a>
+                            </li>
+                            <li class="slideitem">
+                                <a>
+                                    <img src="imgs/slide/2.jpeg">
+                                </a>
+                            </li>
+                            
+                            <li class="slideitem">
+                                <a>
+                                    
+                                    <img src="imgs/slide/3.jpeg">
+                                </a>
+                            </li>
+                            <li class="slideitem">
+                                <a>
+                                    
+                                    <img src="imgs/slide/4.jpeg">
+                                </a>
+                            </li>
+                            <li class="slideitem">
+                                <a>
+                                    
+                                    <img src="imgs/slide/5.jpeg">
+                                </a>
+                            </li>
+                            <li class="slideitem">
+                                <a>
+                                    
+                                    <img src="imgs/slide/6.jpeg">
+                                </a>
+                            </li>
+                            <li class="slideitem">
+                                <a>
+                                    
+                                    <img src="imgs/slide/7.jpeg">
+                                </a>
+                            </li>
+                            <li class="slideitem">
+                                <a>
+                                    
+                                    <img src="imgs/slide/8.jpeg">
+                                </a>
+                            </li>
+                            <li class="slideitem">
+                                <a>
+                                    
+                                    <img src="imgs/slide/9.jpeg">
+                                </a>
+                            </li>
+                            <li class="slideitem">
+                                <a>
+                                    
+                                    <img src="imgs/slide/10.jpeg">
+                                </a>
+                            </li>
+                            <li class="slideitem">
+                                <a>
+                                    
+                                    <img src="imgs/slide/11.jpeg">
+                                </a>
+                            </li>
+                            <li class="slideitem">
+                                <a>
+                                    
+                                    <img src="imgs/slide/12.jpeg">
+                                </a>
+                            </li>
+                            <li class="slideitem">
+                                <a>
+                                    
+                                    <img src="imgs/slide/13.jpeg">
+                                </a>
+                            </li>
+                            <li class="slideitem">
+                                <a>
+                                    
+                                    <img src="imgs/slide/14.jpeg">
+                                </a>
+                            </li>
+                            <li class="slideitem">
+                                <a>
+                                    
+                                    <img src="imgs/slide/15.jpeg">
+                                </a>
+                            </li>
+                            <li class="slideitem">
+                                <a>
+                                    
+                                    <img src="imgs/slide/16.jpeg">
+                                </a>
+                            </li>
+            
+            
+            
+                            <!-- 좌,우 슬라이드 버튼 -->
+                            <div class="slide-control">
+                                <div><!--1-->
+                                    <label for="slide16" class="left"></label>
+                                    <label for="slide02" class="right"></label>
+                                </div>
+                                <div>
+                                    <label for="slide01" class="left"></label>
+                                    <label for="slide03" class="right"></label>
+                                </div>
+                                <div>
+                                    <label for="slide02" class="left"></label>
+                                    <label for="slide04" class="right"></label>
+                                </div>
+                                <div>
+                                    <label for="slide03" class="left"></label>
+                                    <label for="slide05" class="right"></label>
+                                </div>
+                                <div>
+                                    <label for="slide04" class="left"></label>
+                                    <label for="slide06" class="right"></label>
+                                </div>
+                                <div>
+                                    <label for="slide05" class="left"></label>
+                                    <label for="slide07" class="right"></label>
+                                </div>
+                                <div>
+                                    <label for="slide06" class="left"></label>
+                                    <label for="slide08" class="right"></label>
+                                </div>
+                                <div>
+                                    <label for="slide07" class="left"></label>
+                                    <label for="slide09" class="right"></label>
+                                </div>
+                                <div>
+                                    <label for="slide08" class="left"></label>
+                                    <label for="slide10" class="right"></label>
+                                </div>
+                                <div><!--10-->
+                                    <label for="slide09" class="left"></label>
+                                    <label for="slide11" class="right"></label>
+                                </div>
+                                <div>
+                                    <label for="slide10" class="left"></label>
+                                    <label for="slide12" class="right"></label>
+                                </div>
+                                <div>
+                                    <label for="slide11" class="left"></label>
+                                    <label for="slide13" class="right"></label>
+                                </div>
+                                <div>
+                                    <label for="slide12" class="left"></label>
+                                    <label for="slide14" class="right"></label>
+                                </div>
+                                <div>
+                                    <label for="slide13" class="left"></label>
+                                    <label for="slide15" class="right"></label>
+                                </div>
+                                <div><!--15-->
+                                    <label for="slide14" class="left"></label>
+                                    <label for="slide16" class="right"></label>
+                                </div>
+                                <div><!--16-->
+                                    <label for="slide15" class="left"></label>
+                                    <label for="slide01" class="right"></label>
+                                </div>
+            
+
+                            </div>
+                
+                        </ul>
+                
+                    </div>
+                
+                    
+                </div>
+            </div>
+        </section>
+
+        <!--Skills-->
+        <section id="skills" class="section">
+            <div class="section__container">
+                <h1>Album</h1>
+                <h3>역대 앨범 발매 판매 추이 & 트랙 리스트</h3>
+                <!--<p>초동 설명서</p>-->
+        
+<!--Hi high-->
+                <div class="skillset">
+                    <div class="skillset__left">
+                        <h3 class="skillset__title">미니 1집 [+ +]</h3>
+                        <!--1-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>180820 월</span>
+                                <span>7**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 99%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--2-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>180821 화</span>
+                                <span>72**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 90%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--3-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>180822 수</span>
+                                <span>17**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 85%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--4-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>180823 목</span>
+                                <span>12**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 70%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--5-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>180824 금</span>
+                                <span>9**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 100%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--6-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>180825 토</span>
+                                <span>8**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 100%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--7-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>180826 일</span>
+                                <span>1**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 100%;">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillset__right">
+                        <div class="tools">
+                            <h3 class="skillset__title">Album Cover</h3>
+                            <ul class="tools__list">
+                                <img class="tools__img" src="imgs/album/1.jpeg">
+                   
+
+                            </ul>
+                        </div>
+                        <div class="etc">
+                            <h3 class="skillset__title">Album Track List</h3>
+                            <ul class="etc__list">
+                                <!--<li><span>13,300</span></li>-->
+                                <li><span>+ +</span></li>
+                                <li><span>Hi High</span></li>
+                                <li><span>favOriTe</span></li>
+                                <li><span>열기</span></li>
+                                <li><span>Perfect Love</span></li>
+                                <li><span>Stylish</span></li>
+                                
+                              
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+<!--Butterfly-->
+                <div class="skillset">
+    <div class="skillset__left">
+        <h3 class="skillset__title">미니 1집 리패키지 [X X] </h3>
+        <!--1-->
+        <div class="skill">
+            <div class="skill__description">
+                <span>190220 수</span>
+                <span>5*장</span>
+            </div>
+            <div class="skill__bar">
+                <div class="skill__value" style="width: 99%;">
+
+                </div>
+            </div>
+        </div>
+        <!--2-->
+        <div class="skill">
+            <div class="skill__description">
+                <span>190221 목</span>
+                <span>2**장</span>
+            </div>
+            <div class="skill__bar">
+                <div class="skill__value" style="width: 90%;">
+
+                </div>
+            </div>
+        </div>
+        <!--3-->
+        <div class="skill">
+            <div class="skill__description">
+                <span>190222 금</span>
+                <span>9*장</span>
+            </div>
+            <div class="skill__bar">
+                <div class="skill__value" style="width: 85%;">
+                </div>
+            </div>
+        </div>
+        <!--4-->
+        <div class="skill">
+            <div class="skill__description">
+                <span>190223 토</span>
+                <span>5*장</span>
+            </div>
+            <div class="skill__bar">
+                <div class="skill__value" style="width: 70%;">
+
+                </div>
+            </div>
+        </div>
+        <!--5-->
+        <div class="skill">
+            <div class="skill__description">
+                <span>190224 일</span>
+                <span>2*장</span>
+            </div>
+            <div class="skill__bar">
+                <div class="skill__value" style="width: 100%;">
+
+                </div>
+            </div>
+        </div>
+        <!--6-->
+        <div class="skill">
+            <div class="skill__description">
+                <span>190225 월</span>
+                <span>19**장</span>
+            </div>
+            <div class="skill__bar">
+                <div class="skill__value" style="width: 100%;">
+
+                </div>
+            </div>
+        </div>
+        <!--7-->
+        <div class="skill">
+            <div class="skill__description">
+                <span>190226 화</span>
+                <span>26**장</span>
+            </div>
+            <div class="skill__bar">
+                <div class="skill__value" style="width: 100%;">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skillset__right">
+        <div class="tools">
+            <h3 class="skillset__title">Album Cover</h3>
+            <ul class="tools__list">
+                <img class="tools__img" src="imgs/album/2.jpeg">
+            </ul>
+        </div>
+        <div class="etc">
+            <h3 class="skillset__title">Album Track List</h3>
+            <ul class="etc__list">
+                <!--<li><span>5,1**장</span></li>-->
+                <li><span>Butterfly</span></li>
+                <li><span>위성 (Satellite)</span></li>
+                <li><span>Curiosity	</span></li>
+                <li><span>색깔 (Colors)</span></li>
+                <li><span>Where you at</span></li>
+                <li><span>Stylish	</span></li>
+                <li><span>Perfect Love</span></li>
+                <li><span>favOriTe</span></li>
+                <li><span>Hi High</span></li>
+                <li><span>+ +</span></li>
+
+
+            </ul>
+        </div>
+    </div>
+                </div>
+<!--So what-->
+                <div class="skillset">
+                    <div class="skillset__left">
+                        <h3 class="skillset__title">미니 2집 [#]</h3>
+                        <!--1-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>200205 수</span>
+                                <span>15**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 99%;">
+                                </div>
+                            </div>
+                        </div>
+                        <!--2-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>200206 목</span>
+                                <span>39**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 90%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--3-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>200207 금</span>
+                                <span>122**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 85%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--4-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>200208 토</span>
+                                <span>18**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 70%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--5-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>200209 일</span>
+                                <span>3*장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 100%;">
+                                </div>
+                            </div>
+                        </div>
+                        <!--6-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>200210 월</span>
+                                <span>5**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 100%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--7-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>200211 화</span>
+                                <span>20**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 100%;">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillset__right">
+                        <div class="tools">
+                            <h3 class="skillset__title">Album Cover</h3>
+                            <ul class="tools__list">
+                                <img class="tools__img" src="imgs/album/3.jpeg">
+                            </ul>
+                        </div>
+                        <div class="etc">
+                            <h3 class="skillset__title">Album Track List</h3>
+                            <ul class="etc__list">
+                                <!--<li><span>22,1**장</span></li>-->
+                                <li><span>#</span></li>
+                                <li><span>So What</span></li>
+                                <li><span>Number 1</span></li>
+                                <li><span>Oh (Yes I Am)</span></li>
+                                <li><span>땡땡땡</span></li>
+                                <li><span>365</span></li>
+                                <li><span>Day & Night</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+<!--Why not?-->
+                <div class="skillset">
+                    <div class="skillset__left">
+                        <h3 class="skillset__title">미니 3집 < 12 : 00 ></h3>
+                        <!--1-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>201019 월</span>
+                                <span>13,3**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 99%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--2-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>201020 화</span>
+                                <span>12,3**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 90%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--3-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>201021 수</span>
+                                <span>7,0**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 85%;">
+                                </div>
+                            </div>
+                        </div>
+                        <!--4-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>201022 목</span>
+                                <span>3,8**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 70%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--5-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>201023 금</span>
+                                <span>8*장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 100%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--6-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>201024 토</span>
+                                <span>6,4**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 100%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--7-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>201025 일</span>
+                                <span>3,7**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 100%;">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillset__right">
+                        <div class="tools">
+                            <h3 class="skillset__title">Album Cover</h3>
+                            <ul class="tools__list">
+                                <img class="tools__img" src="imgs/album/4.jpeg">
+                            </ul>
+                        </div>
+                        <div class="etc">
+                            <h3 class="skillset__title">Album Track List</h3>
+                            <ul class="etc__list">
+                                <!--<li><span>46,9**장</span></li>-->
+                                <li><span>12:00</span></li>
+                                <li><span>Why Not?</span></li>
+                                <li><span>목소리 (Voice)</span></li>
+                                <li><span>기억해 (Fall Again)</span></li>
+                                <li><span>Universe</span></li>
+                                <li><span>숨바꼭질 (Hide & Seek)</span></li>
+                                <li><span>OOPS!</span></li>
+                                <li><span>Star (목소리 English Ver.)</span></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+<!--PTT-->
+                <div class="skillset">
+                    <div class="skillset__left">
+                        <h3 class="skillset__title">미니 4집 [&]</h3>
+                        <!--1-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>210629 화</span>
+                                <span>18,4**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 99%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--2-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>210630 수</span>
+                                <span>9,1**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 90%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--3-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>210701 목</span>
+                                <span>23,1**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 85%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--4-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>210702 금</span>
+                                <span>7,0**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 70%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--5-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>210703 토</span>
+                                <span>1,5**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 100%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--6-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>210704 일</span>
+                                <span>4,1**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 100%;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--7-->
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>210705 월</span>
+                                <span>12,8**장</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 100%;">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillset__right">
+                        <div class="tools">
+                            <h3 class="skillset__title">Album Cover</h3>
+                            <ul class="tools__list">
+                                <img class="tools__img" src="imgs/album/5.jpeg">
+                            </ul>
+                        </div>
+                        <div class="etc">
+                            <h3 class="skillset__title">Ablum Track List</h3>
+                            <ul class="etc__list">
+                                <!--<li><span>76,2**장</span></li>-->
+                                <li><span>&</span></li>
+                                <li><span>PTT (Paint The Town)</span></li>
+                                <li><span>WOW</span></li>
+                                <li><span>Be Honest</span></li>
+                                <li><span>Dance On My Own</span></li>
+                                <li><span>A Different Night</span></li>
+                                <li><span>U R</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!--Testimonials-->
+        <section id="testimonials" class="section">
+            <div class="section__container">
+                <h1>Talks</h1>
+                <h3>See what they say about LOONA</h3>
+                <div class="testimonials">
+                    <!--왼-->
+                    <div class="testimonial">
+                        <img 
+                        src="imgs/testimonial/reportor.jpg" 
+                        alt="pp1" 
+                        class="testimonial__avater"
+                        />
+
+                        <div class="testimonial__speech-bubble">
+                            <p>美 빌보드, 이달의 소녀 극찬 “가장 장대한 서사 지닌 걸그룹”</p>
+                            <p class="name"><a href="https://www.sedaily.com/NewsVIew/1RUG75UTY5"> 서울 경제 </a> /이하나 기자</p>
+                        </div>
+
+                    </div>
+                    <!--오른-->
+                    <div class="testimonial">
+                        <div class="testimonial__speech-bubble">
+                            <p>이달의 소녀, 美 어피니티 매거진 극찬 “이런 그룹은 없다”</p>
+                            <p class="name"><a href="https://www.mk.co.kr/news/entertain/view/2021/07/651567/">매일 경제</a>/안하나 기자</p>
+                        </div>
+                        <img 
+                        src="imgs/testimonial/reportor.jpg" 
+                        alt="pp2" 
+                        class="testimonial__avater"
+                        />
+                    </div>
+                    <!--왼-->
+                    <div class="testimonial">
+                        <img 
+                        src="imgs/testimonial/reportor.jpg" 
+                        alt="pp1" 
+                        class="testimonial__avater"
+                        />
+
+                        <div class="testimonial__speech-bubble">
+                            <p>"이달의 소녀의 음악은 끊임없이 발전"…美 어피니티 매거진 극찬</p>
+                            <p class="name"><a href="https://www.m-i.kr/news/articleView.html?idxno=812061">매일 일보</a>/강연우 PD</p>
+                        </div>
+
+                    </div>
+                    <!--오른-->
+                    <div class="testimonial">
+                        <div class="testimonial__speech-bubble">
+                            <p>이달의 소녀 'Star' 美 라디오차트 TOP40 5주 연속 진입…포브스·빌보드 극찬</p>
+                            <p class="name"><a href="">뉴스 웍스</a>/이동헌 기자</p>
+                        </div>
+                        <img 
+                        src="imgs/testimonial/reportor.jpg" 
+                        alt="pp2" 
+                        class="testimonial__avater"
+                        />
+                    </div>
+
+                    <!--왼-->
+                    <div class="testimonial">
+                        <img 
+                        src="imgs/testimonial/reportor.jpg" 
+                        alt="pp1" 
+                        class="testimonial__avater"
+                        />
+
+                        <div class="testimonial__speech-bubble">
+                            <p>CNN 필리핀, “이달의 소녀는 4세대 아이돌 신흥강자” 극찬</p>
+                            <p class="name"><a href="https://www.ajunews.com/view/20201228165236726">아주 경제</a>/장윤정 기자</p>
+                        </div>
+
+                    </div>
+                    <!--오른-->
+                    <div class="testimonial">
+                        <div class="testimonial__speech-bubble">
+                            <p>美 MTV, 이달의 소녀 극찬 ''So What' 들으면 중독될 것”</p>
+                            <p class="name"><a href="https://news.zum.com/articles/57975758">엑스포츠뉴스</a>/신효원 기자</p>
+                        </div>
+                        <img 
+                        src="imgs/testimonial/reportor.jpg" 
+                        alt="pp2" 
+                        class="testimonial__avater"
+                        />
+                    </div>
+                 
+
+                </div>
+        </div>
+
+        </section>
+
+        <!--Contact-->
+        <section id="contact" class="section">
+           <!-- <h1 class="contact__title" >Let's Talk</h1>-->
+            <h2 class="contact__email">LOONA the WORLD</h2>
+            <div class="contact__links">
+                <a href="https://twitter.com/loonatheworld" target="_blank">
+                    <i class="fab fa-twitter-square"></i>
+                   
+                </a>
+                <a href="http://www.loonatheworld.com/" target="_blank">
+                    <i class="far fa-window-maximize"></i>
+                   
+                </a>
+            </div>
+            <p class="contact__rights">2021 ayeon - All right reserved</p>
+        </section>
+
+        <!--Arrow up-->
+
+        <button class="arrow-up">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </body>
+</html>
