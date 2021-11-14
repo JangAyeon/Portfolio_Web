@@ -33,10 +33,9 @@
 `Typography`
 - h1, h2, h3, p에 font-size, font-weight, color, margin 설정해 CSS에 일관된 타이포 적용
 
-## 2 : Wire Frame
 
 
-## 3 : Navbar
+## 2 : Navbar
 
 |Top|Scroll|
 |------|---|
@@ -66,7 +65,7 @@
 ![Section__click](https://user-images.githubusercontent.com/67853616/131964038-cba67a6f-1acd-4d87-97b9-d89f30980535.png)
 > navbar에서 보고 싶은 section 칸에 Click 하는 경우 해당 Section으로 scroll 이동됨
 
-## 4 : About
+## 3 : About
 
 |Wide View |Small View|
 |------|---|
@@ -78,7 +77,7 @@
 |![image](https://user-images.githubusercontent.com/67853616/131964753-8aed86b6-77e6-48b1-bd5d-f4fe15b2515d.png)|![image](https://user-images.githubusercontent.com/67853616/131964814-c408841c-6295-451a-a23c-53526be70895.png)|
 
 
-## 5 : Members
+## 4 : Members
 |ALL|Filtering|
 |--|--|
 |![image](https://user-images.githubusercontent.com/67853616/131965027-73a97cb7-fdc4-4128-8c73-45f9c3b7d423.png)|![image](https://user-images.githubusercontent.com/67853616/131965257-9a3caa68-34d1-4216-af6e-fa9448934a28.png)|
@@ -88,7 +87,7 @@
 |![image](https://user-images.githubusercontent.com/67853616/131965027-73a97cb7-fdc4-4128-8c73-45f9c3b7d423.png)|![image](https://user-images.githubusercontent.com/67853616/131965440-098d2258-d388-448b-a0c3-e4224d466811.png)|
 
 
-## 6 : Photos
+## 5 : Photos
 |Wide View |Small View|
 |--|--|
 |![image](https://user-images.githubusercontent.com/67853616/131965667-78815a39-7900-43ba-ab01-2b38e055c61a.png)|![image](https://user-images.githubusercontent.com/67853616/131965799-68ff0858-e0cc-4abe-b390-e260e45f3c44.png)|
@@ -102,12 +101,12 @@
 |------|---|
 |![image](https://user-images.githubusercontent.com/67853616/131966489-419a21ba-f1e9-4d71-8592-f821b80345cf.png)|![image](https://user-images.githubusercontent.com/67853616/131966639-f756a68b-a22a-4e80-b5ca-9961e3f92ed5.png)|
 
-## 7 : Talks
+## 6 : Talks
 |Wide View |Small View|
 |------|---|
 |![image](https://user-images.githubusercontent.com/67853616/131966858-4222686d-9bef-4460-9dd9-9ec2758ba867.png)|![image](https://user-images.githubusercontent.com/67853616/131966815-dd92516c-1e45-488c-905a-76b0796ef81c.png)|
 
-## 8 : Contact
+## 7 : Contact
 |Wide View |Small View|
 |------|---|
 |![image](https://user-images.githubusercontent.com/67853616/131967044-b76ff970-8d78-491a-bd50-1cdab003c5d0.png)|![image](https://user-images.githubusercontent.com/67853616/131967105-608e0c76-6e72-4746-9be6-2ff24b3519d3.png)|
@@ -116,7 +115,7 @@
 |------|---|
 |![image](https://user-images.githubusercontent.com/67853616/131967290-e2732209-38fd-4809-8a8d-6a7fdd0df18f.png)|![image](https://user-images.githubusercontent.com/67853616/131967339-46460a59-7d7b-42b5-b0e7-b3b08c80b412.png)|
 |해당 아이콘 클릭시 [공식 트위터 계정](https://twitter.com/loonatheworld)으로 이동|해당 아이콘 클릭시 [공식 사이트](http://www.loonatheworld.com/)로 이동|
-## 9 : Arrow - up
+## 8 : Arrow - up
 |Default|Arrow 아이콘<br> Hover|Arrow 아이콘 Click 후<br> 가장 위로 이동
 |------|---|--|
 |![image](https://user-images.githubusercontent.com/67853616/131967611-27a3d7b3-3a14-4faf-a097-3038ce3bdaa1.png)|![image](https://user-images.githubusercontent.com/67853616/131967563-e39bdbbb-8363-43f6-b47a-09e4df5a3a8d.png)|![image](https://user-images.githubusercontent.com/67853616/131967640-4a0dca92-b3cc-4f50-8159-2b13a215978b.png)|
