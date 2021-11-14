@@ -1,6 +1,15 @@
 # Responsive_web
 
 [드림 코딩 엘리 포트폴리오 웹](https://academy.dream-coding.com/courses/portfolio) 듣고 제작한 [이달의 소녀](https://namu.wiki/w/%EC%9D%B4%EB%8B%AC%EC%9D%98%20%EC%86%8C%EB%85%80) 소개 홈페이지
+#### 사용 언어 : <br>
+
+<table>
+  <tr>
+    <td align="left"><img src="https://img.shields.io/badge/-HTML5-313131?style=flat-square&labelColor=313131&logo=html5&logoColor=white&color=313131" width="100px" alt=""/></a>   </td>
+    <td align="left"><img src="https://img.shields.io/badge/-CSS3-313131?style=flat-square&labelColor=313131&logo=css3&logoColor=white&color=313131" width="100px" alt=""/></a></td>
+     <td align="left"><img src="https://img.shields.io/badge/-Javascript-313131?style=flat-square&labelColor=313131&logo=javascript&logoColor=white&color=313131" width="100px" alt=""/></a></td>
+  </tr>
+</table>
 
 ## 1 : CSS Concept
 
